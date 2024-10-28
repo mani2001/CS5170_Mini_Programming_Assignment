@@ -10,7 +10,8 @@ In this project, I demonstrate how to use Meta's Llama LLM through the GROQ API 
 ->MemoryChatBot: A memory-based chatbot that interacts with users in a continuous conversational style, retaining previous messages for contextually relevant responses.
 This project leverages GROQ API, a cost-effective solution for hosting large language models, to deliver responses tailored to user queries. Additionally, the application supports dynamic switching between bots, allowing users to explore model capabilities or engage in an ongoing conversation seamlessly.
 
-![Architecture of basic app](image.png)
+<img src="image.png" alt="Chatbot Workflow" width="500">
+
 
 
 ## Files Used
