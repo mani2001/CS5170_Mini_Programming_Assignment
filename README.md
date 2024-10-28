@@ -1,5 +1,5 @@
 # CS5170_Mini_Programming_Assignment
-A repository for demonstrating Llama API usage and learning process
+A repository for demonstrating Llama API usage and learning process by creating a simple chatbot with 30K context memory.
 
 ## Llama Language Model usage through GROQ API
 
