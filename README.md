@@ -41,7 +41,7 @@ cd CS5170_Mini_Programming_Assignment/
 
 Step 3: Create a credentials.env file and add the GROQ API key as - 
 ```bash
-GROQ_API_KEY = "<API_KEY>"
+GROQ_API_KEY = "<API_KEY>" #do not use quotes just paste the api key
 ```
 
 Step 4: Install all the required libraries by using the command - 
@@ -53,4 +53,36 @@ Step 5: In the root directory of the project run the following -
 ```bash
 python test_api.py
 ```
+## How It Works
+
+BotIntroduction: This bot answers a preset query, "Hi, who are you and what are your capabilities?", giving users a sense of the model's strengths. This is triggered by the bot_intro command during a chat session.
+MemoryChatBot: Retains previous interactions to enable context-based responses. It tracks token usage to ensure the conversation remains within token limits, removing older messages when necessary.
+
+***All necessary comments are given in the code.***
+
+## Code overview
+
+Classes:
+`BotIntroduction`: A simple bot that introduces the LLM's capabilities when prompted with bot_intro.
+
+`MemoryChatBot`: A memory-based chatbot that retains context across user inputs, allowing for continuous, context-aware conversations.
+
+Functions:
+
+`BotIntroduction.introduce`: Sends a fixed prompt asking the LLM to introduce itself and describe its capabilities.
+
+`MemoryChatBot.chat`: Adds user input to the conversation context, sends it to the LLM, and prints the response. The function also handles token counting to prevent exceeding the maximum limit.
+
+`MemoryChatBot.add_message` and `count_tokens`: Manages message storage and token tracking to remove the oldest messages when necessary.
+
+
+## Reflection
+
+This project provided a hands-on experience with generative AI, focusing on integrating Meta's Llama model through the GROQ API for a dual-function chatbot system. 
+
+**Challenges**: One key challenge was managing conversational memory within token constraints for the `MemoryChatBot`, requiring a method to balance relevance by retaining recent messages while discarding older ones. Additionally, designing two distinct bot functions—one for memory-based interaction and one for model introduction—helped me understand modular bot design and the importance of clear functionality in conversational systems.
+
+**Lessons Learned**: I gained insights into token management, memory handling, and modular bot setups, which are essential for creating responsive, context-aware chatbots. Working with the GROQ API also refined my skills in API integration and secure environment handling, which are crucial for deploying scalable models.
+
+**Future Applications**: With this experience, I’m interested in expanding multi-function bots that support various tasks, such as summarization or customer support. This project has equipped me with a better understanding of user-centered conversational design, which I look forward to applying in more complex AI-driven applications.
 
