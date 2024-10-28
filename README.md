@@ -12,7 +12,7 @@ This project leverages GROQ API, a cost-effective solution for hosting large lan
 
 <img src="image.png" alt="Chatbot Workflow" width="500">
 
-
+To learn more about GROQ API, go here - https://groq.com
 
 ## Files Used
 
