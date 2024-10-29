@@ -5,9 +5,9 @@ A repository for demonstrating Llama API usage and learning process by creating 
 
 In this project, I demonstrate how to use Meta's Llama LLM through the GROQ API platform to create a versatile chatbot system with two distinct functionalities. The code in the chatbot_app.py file sets up:
 
-->BotIntroduction: A bot that provides a detailed introduction and lists the capabilities of the Llama3-70B model on the GROQ platform, allowing users to understand its various functions.
+1)BotIntroduction: A bot that provides a detailed introduction and lists the capabilities of the Llama3-70B model on the GROQ platform, allowing users to understand its various functions.
 
-->MemoryChatBot: A memory-based chatbot that interacts with users in a continuous conversational style, retaining previous messages for contextually relevant responses.
+2)MemoryChatBot: A memory-based chatbot that interacts with users in a continuous conversational style, retaining previous messages for contextually relevant responses.
 This project leverages GROQ API, a cost-effective solution for hosting large language models, to deliver responses tailored to user queries. Additionally, the application supports dynamic switching between bots, allowing users to explore model capabilities or engage in an ongoing conversation seamlessly.
 
 <img src="image.png" alt="Chatbot Workflow" width="500">
