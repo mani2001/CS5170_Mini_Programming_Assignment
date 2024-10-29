@@ -75,6 +75,10 @@ Functions:
 
 `MemoryChatBot.add_message` and `count_tokens`: Manages message storage and token tracking to remove the oldest messages when necessary.
 
+## Example input and output
+
+<img src="Example.png" alt="Example" width="500">
+
 
 ## Reflection
 
