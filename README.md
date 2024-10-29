@@ -23,7 +23,7 @@ To learn more about GROQ API, go here - https://groq.com
 ## Dependencies 
 
  - Python version = 3.10 (provides stable support for GROQ)
- - GROQ API Key - https://console.groq.com/keys
+ - GROQ API Key - https://console.groq.com/keys (Can be obtained from this link, has a free tier)
 
 ## Setup
 
@@ -39,7 +39,7 @@ Step 2: Change into the directory
 cd CS5170_Mini_Programming_Assignment/
 ```
 
-Step 3: Create a credentials.env file and add the GROQ API key as - 
+Step 3: Go to credentials.env file and replace with your GROQ API key as - 
 ```bash
 GROQ_API_KEY = "<API_KEY>" #do not use quotes just paste the api key
 ```
