@@ -58,6 +58,7 @@ python test_api.py
 ***All necessary comments are given in the code.***
 
 BotIntroduction: This bot answers a preset query, "Hi, who are you and what are your capabilities?", giving users a sense of the model's strengths. This is triggered by the bot_intro command during a chat session.
+
 MemoryChatBot: Retains previous interactions to enable context-based responses. It tracks token usage to ensure the conversation remains within token limits, removing older messages when necessary.
 
 
