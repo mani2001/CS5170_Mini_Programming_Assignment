@@ -83,7 +83,7 @@ if __name__ == "__main__":
     bot_intro = BotIntroduction()  # Bot that explains itself
     memory_chat_bot = MemoryChatBot()  # Memory-based bot for ongoing conversation
 
-    print("Welcome! Type 'bot_intro' to see bot capabilities or 'exit' to end.")
+    print("Welcome! Chat normally or  Type 'bot_intro' to see bot capabilities or 'exit' to end.")
 
     while True:
         user_input = input("You: ")
