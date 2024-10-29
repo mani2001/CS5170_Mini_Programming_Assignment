@@ -27,7 +27,7 @@ To learn more about GROQ API, go here - https://groq.com
 
 ## Setup
 
-Initalize a python env with 3.10 version using conda or any other method of your choice. Below is the setup instructions to get the API to run:
+Initalize a python env with 3.10 version using `conda create -n testenv python=3.10` or any other method of your choice and activate the env. Below is the setup instructions to get the project to run:
 
 Step 1: Clone the repository
 ```bash
@@ -46,7 +46,7 @@ GROQ_API_KEY = "<API_KEY>" #do not use quotes just paste the api key
 
 Step 4: Install all the required libraries by using the command - 
 ```bash
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 Step 5: In the root directory of the project run the following -
